@@ -1,0 +1,288 @@
+html, body{
+     padding:0px;
+     margin:0px;
+	 background-image: url("Background.jpg");
+	 background-size:100% 100%;
+	 background-repeat: no-repeat;
+}
+
+footer{
+     background-color:black;
+	 color:#0099CC;
+}
+
+
+
+#silver{
+
+     margin: auto;
+     height:1px;
+	 width: 40%;
+     padding: auto;
+	 font:30px serif, sans-serif;	
+     	 
+}
+
+
+/*  Navigation Bar CSS  */
+nav{
+     padding:0px;
+	 margin:0px;
+	 border:100px;
+}
+nav ul {
+     width:70%;
+	 list-style-type:none;
+	 padding:0px;
+	 overflow: hidden;
+	 background-color:#333;
+	 margin:auto;
+}
+
+nav li{
+     float:left
+}
+
+li a{
+     display: inline-block;
+	 color:white;
+	 padding: 14px 16px;
+	 font-size:21px;
+	 text-decoration:none;
+}
+
+li a:hover{
+     background-color:#111;
+}
+
+.main{
+     color: black;
+     width:70%;
+	 height:auto;
+	 padding:0px;
+	 margin:0px;
+	 background-color:#454545;
+	 margin:auto;
+	 opacity:0.9;
+	 filter:alpha(opacity=60);
+}
+
+main h2 {
+     color:red;
+     margin: auto;
+	 width: 32%;
+     padding: auto;
+	 font:40px Forte, serif;
+}
+main h3{
+     color:red;
+     margin:auto;
+	 width:55%;
+	 padding:auto;
+	 font:40px Forte, serif;	 
+}
+
+
+/* Home Page Features CSS */
+
+.seating img{
+     border-radius:120px;
+	 height:200px; 
+	 width:200px;
+}
+
+.features{
+     
+	 width:95.5%;
+     height:80%;
+	 padding:2%;
+	 
+}
+.seating{
+     float:left;
+	 
+	 width:25%;
+	 padding:2%;
+}
+.seating h4{
+     
+     font-size:20px;       
+     width:65%;
+	 margin-left:20%;	
+}
+.d{
+     
+     width:25%;
+	 margin-left:6%;
+	 float:left;
+	 padding:2%;
+}
+.d img{
+     margin-right: auto;
+     margin-left: auto;
+     border-radius: 120px;
+	 height:200px; 
+	 width:200px;
+}
+.d h4{ 
+     
+     font-size:20px;       
+     width:70%;
+	 margin-left:27%;
+}
+
+
+.dolby{
+    
+     float: left;
+     margin-left:6%;
+     width: 25%;
+	 padding:2%;
+}
+.dolby img{
+     margin-right: auto;
+     margin-left: auto;
+     border-radius:120px;
+}
+
+.dolby h4{
+    
+	 width:90%;
+     font-size:20px;
+     margin-left:9%; 
+}	
+
+/*   Contact Page Styling    */
+.form{
+     border-style:dotted solid double dashed;
+     border-width:5px;
+	 padding:6%;
+	 width:40%;
+	 height:50%;
+	 margin:auto;
+} 
+.main h1{
+     margin:auto;
+	 width:26%;
+	 padding:auto;
+	 font:50px Forte, serif;
+}
+
+/*  Movies Page Css  */
+
+   /* movie Css  */
+
+.movie{
+     
+     padding-top:1%;
+	 width:100%;
+	 height:auto;
+	}
+.content{
+     
+	 width:48.5%;
+	 height:auto%;
+	 float:right;
+	 padding-top:0px;
+	 padding-left:1%;
+}  
+.content h4{
+     
+     width:100%;
+	 height:3%;
+	 padding:0px;
+	 font:20px serif, Forte;
+	 margin-top:-0.5%;	 
+   }
+.content p{
+     margin-top:-20;
+}   
+
+.content details{
+      margin-top:-10%;
+
+}
+
+.booking{
+	 margin-top:10px;
+	 
+}
+.booking table,tr,td{
+
+     border:1px solid black;
+}
+.submit{
+     margin-top:10px;
+}
+
+/* Movie Timetable HOme Page*/
+.timetable{
+      padding:2%;
+}
+.timetable h5{
+     margin:auto;
+	 max-width:30%;
+	
+	 font:35px Forte, serif;
+	 
+}
+.mon{
+    
+     height:auto;
+}
+
+.mon table,tr,td{
+     Border:1px solid black;
+}
+.mon table{
+     width:70%;
+}
+.mon table{
+     margin-top:-5%;
+}
+
+
+/*                               ASSIGNMENT 2 CSS           */
+
+
+#login {
+display:none;
+width:100%;
+height:100%;
+background-color:#313131;
+top:0;
+left:0;
+opacity:.95;
+position:fixed;
+overflow:auto
+}
+
+#customerlogin{
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+
+#loginform {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+
+#customerlogin img{
+margin-left:320px;
+margin-top:-10px;
+}
+#customerlogin h1{
+width:auto;
+
+font-size:30px;
+font-family:sans-serif;
+}
+
